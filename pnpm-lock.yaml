@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^0.0.0-insiders.565cd3e
     version: 0.0.0-insiders.565cd3e(postcss@8.4.45)
   css-loader:
-    specifier: ^6.8.1
-    version: 6.11.0(webpack@5.94.0)
+    specifier: ^7.0.0
+    version: 7.1.5(webpack@5.94.0)
   mini-css-extract-plugin:
     specifier: ^2.7.6
     version: 2.9.1(webpack@5.94.0)
@@ -1085,12 +1085,12 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /css-loader@6.11.0(webpack@5.94.0):
-    resolution: {integrity: sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==}
-    engines: {node: '>= 12.13.0'}
+  /css-loader@7.1.5(webpack@5.94.0):
+    resolution: {integrity: sha512-Q7iAfQkU2twNBryKX/vGAlE+GAmkF7quhSzAGNK8fBimxk3+tqg245rH52UPb9dioBolBc8rP0ihmHBaDTJQBA==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
-      '@rspack/core': 0.x || 1.x
-      webpack: ^5.0.0
+      '@rspack/core': 0.x || ^1.0.0 || ^2.0.0-0
+      webpack: ^5.27.0
     peerDependenciesMeta:
       '@rspack/core':
         optional: true
